@@ -1,5 +1,5 @@
 print("=============================")
-'''print("Exercicio 1 - aula 7")
+print("Exercicio 1 - aula 7")
 print("=============================")
 idade = int(input("Digite sua idade: "))
 
@@ -8,7 +8,7 @@ if idade >= 18:
 else:
     print("Você é menor de idade")
 print("=============================")
-print("")'''
+print("")
 print("=============================")
 print("Exercicio 2 - Aula 7")
 print("=============================")
@@ -42,3 +42,11 @@ print("============================")
 print("Desafio Extra -- ")
 print("============================")
 idade = int(input("Digite sua idade:  "))
+if idade <= 12 :
+    print("Criança")
+elif idade < 18:
+    print("Adolescente")
+elif idade <= 59:
+    print("Adulto")
+else:
+    print("Idoso")
